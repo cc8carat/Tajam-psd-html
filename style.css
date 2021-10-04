@@ -412,7 +412,7 @@ footer .ftcontainer {
 
 .team {
   min-height: 660px;
-  background-image: url(/design-assets/bgk-header.png);
+  background-image: url(./design-assets/bgk-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
