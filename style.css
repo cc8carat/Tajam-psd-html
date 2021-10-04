@@ -189,8 +189,8 @@ nav {
 
 
 .pic-grid {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 300px;
+  margin-right: 300px;
   display: grid;
   grid-template-columns: 0.9fr 1fr 1fr;
   margin-bottom: 250px;
@@ -587,9 +587,10 @@ footer .ftcontainer {
 }
 
 #heading-form {
-  margin-top: 15px
+  margin-top: 5px
   display: flex;
   align-content: flex-start;
+  margin-top: 5px;
 }
 
 #heading-clients {
