@@ -587,10 +587,10 @@ footer .ftcontainer {
 }
 
 #heading-form {
-  margin-top: 5px
+  margin-top: 1px
   display: flex;
   align-content: flex-start;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 #heading-clients {
