@@ -191,7 +191,8 @@ nav {
   margin-right: 150px;
   display: grid;
   grid-template-columns: 0.9fr 1fr 1fr;
-}
+  margin-botto: 150px
+  }
 
 .pic-grid > * {
   min-height: 2em;
