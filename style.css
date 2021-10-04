@@ -1,9 +1,8 @@
-
 /*  width: 960px; */
 
 
 
-/* Begining Meet The Team*/
+/*----------------Chris--------------------*/
 .team {
     
     min-height: 660px;
@@ -184,7 +183,9 @@
 #pic-row-2 {
   margin-left: 110px;
 }
-=======
+
+/* ----------------Abdullah----------------*/
+
 * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
@@ -598,4 +599,3 @@ footer .ftcontainer {
   left: 380px;
   bottom: 70px;
 }
-
