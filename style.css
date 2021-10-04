@@ -587,6 +587,7 @@ footer .ftcontainer {
 }
 
 #heading-form {
+  margin-top: 40px
   display: flex;
   align-content: flex-start;
 }
