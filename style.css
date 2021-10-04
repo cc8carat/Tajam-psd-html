@@ -453,6 +453,7 @@ footer .ftcontainer {
 .teamMember {
   display: flex;
   flex-direction: column;
+  object-fit: cover;
   justify-content: flex-start;
   align-items: center;
   width: 254px;
