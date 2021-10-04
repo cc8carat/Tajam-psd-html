@@ -590,7 +590,7 @@ footer .ftcontainer {
   margin-top: 5px
   display: flex;
   align-content: flex-start;
-  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #heading-clients {
