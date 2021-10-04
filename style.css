@@ -443,6 +443,7 @@ footer .ftcontainer {
 
 
 .teamMembers {
+  bojec-fit: cover;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
