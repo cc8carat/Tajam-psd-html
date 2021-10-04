@@ -412,7 +412,7 @@ footer .ftcontainer {
 
 .team {
   min-height: 660px;
-  background-image: url(/bgk-header.jpg);
+  background-image: url(/design-assets/bgk-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -420,13 +420,22 @@ footer .ftcontainer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .team-heading {
   line-height: 5px;
   text-align: center;
-  margin-bottom: 60px;
+    
 }
+
+.line-under-team {
+  border-top: 0.1rem solid gray;
+  width: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 
 .teamMembers {
   display: flex;
@@ -441,9 +450,10 @@ footer .ftcontainer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 250px;
+  width: 254px;
   border: 2px solid gray;
   margin: 10px;
+  
 }
 
 .name-position {
@@ -455,12 +465,25 @@ footer .ftcontainer {
 .team-footer {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 20px;
+  
 }
 
 .hiring {
-  border: 2px solid teal;
+ /* border: 2px solid teal;
   color: teal;
   font-weight: bold;
+  */
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Hammersmith One", sans-serif;
+  color: #00e0d0;
+  border: 0.1rem solid #00e0d0;
+  padding: 10px;
+  height: fit-content;
+  
+
 }
 
 /* Begining Form and Clients*/
@@ -501,7 +524,7 @@ footer .ftcontainer {
 .body-form-clients {
   display: flex;
   justify-content: left;
-  height: 70%;
+  height: 100%;
 }
 
 .contact-form {
@@ -512,6 +535,7 @@ footer .ftcontainer {
   display: flex;
   flex-direction: column;
   color: gray;
+  
 }
 
 .clients {
@@ -519,9 +543,11 @@ footer .ftcontainer {
 }
 
 .clients-container {
-  display: flex;
+  
   flex-direction: column;
   justify-content: space-between;
+  
+  
 }
 
 .input {
@@ -547,8 +573,15 @@ footer .ftcontainer {
   margin-right: 55px;
 }
 
+#heading-form {
+  display: flex;
+  align-content: flex-start;
+}
+
 #heading-clients {
   margin-left: 100px;
+  display: flex;
+  align-content: flex-start;
 }
 
 #pic-row-1 {
@@ -556,5 +589,23 @@ footer .ftcontainer {
 }
 
 #pic-row-2 {
-  margin-left: 110px;
+
+  margin-left: 80px;
+  
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Hammersmith One", sans-serif;
+  color: #00e0d0;
+  border: 0.1rem solid #00e0d0;
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 25%;
+  background-color: white;
+  padding: 10px;
 }
