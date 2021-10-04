@@ -1,4 +1,7 @@
 * {
+
+  box-sizing: border-box;
+
   font-family: "Open Sans", sans-serif;
   font-family: "Yaldevi", sans-serif;
 }
@@ -158,14 +161,18 @@ nav {
   color: #7a7a7a;
   font-weight: 100;
   text-align: center;
-  padding: 7px 20px;
+
+  padding: 1px 10px;
+
   margin-top: 10px;
 }
 
 .p1 {
   text-align: center;
   color: black;
-  padding-bottom: 90px;
+
+  padding-bottom: 80px;
+
   justify-content: space-between;
   font-family: playfair;
   font-size: 14px;
@@ -249,9 +256,11 @@ footer .ftcontainer {
 }
 
 .nav-bottom ul {
-  margin-top: 150px;
+
+  margin-top: 100px;
   display: flex;
-  margin-left: 100px;
+  margin-left: 40px;
+
   margin-right: 180px;
   justify-content: space-between;
   list-style: none;
@@ -296,7 +305,9 @@ footer .ftcontainer {
 .flex-item2 img {
   position: absolute;
   display: flex;
-  margin-top: 40px;
+
+  margin-top: 45px;
+
   padding-right: 10px;
   justify-content: space-between;
 }
@@ -311,7 +322,9 @@ footer .ftcontainer {
   font-weight: 100;
   opacity: 75%;
 }
-.flex-item2 h3 {
+
+.flex-item2 h4 {
+
   margin-top: 40px;
   position: relative;
   margin-left: 40px;
@@ -319,7 +332,9 @@ footer .ftcontainer {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   color: white;
-  font-weight: 800;
+
+  font-weight: 550;
+
 }
 
 .flex-item1 p {
@@ -329,6 +344,9 @@ footer .ftcontainer {
   font-size: 14px;
   font-weight: 100;
   opacity: 75%;
+
+  line-height: 30px;
+
 }
 .flex-item2 p {
   margin-top: 20px;
@@ -339,6 +357,9 @@ footer .ftcontainer {
   font-size: 14px;
   font-weight: 100;
   opacity: 75%;
+
+  line-height: 30px;
+
 }
 
 .flex-item2 p.phone {
@@ -357,7 +378,9 @@ footer .ftcontainer {
   list-style: none;
 }
 
-.flex-item3 h3 {
+
+.flex-item3 h4 {
+
   margin-top: 40px;
   position: relative;
   margin-left: 40px;
@@ -365,7 +388,9 @@ footer .ftcontainer {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   color: white;
-  font-weight: 800;
+
+  font-weight: 550;
+
 }
 
 .flex-item3 p {
@@ -399,4 +424,14 @@ footer .ftcontainer {
   opacity: 70%;
   padding-left: 20px;
   padding-right: 20px;
+<
+}
+
+.underline {
+  border: 1px gray solid;
+  width: 50px;
+  position: relative;
+  left: 380px;
+  bottom: 70px;
+
 }
